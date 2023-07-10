@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5d0fe;
+  height: 100vh;
+}
+
+.app-content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  font-size: 20px;
+  color: #000000;
+  font-family: 'Roboto';
+}
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  border: 1px solid #cbd2d9;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: #323f4b;
+}
+
+.save-button {
+  background-color: #d946ef;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 0;
+  color: #323f4b;
+}
+
+.edit-button {
+  background-color: #d946ef;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
